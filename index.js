@@ -1,5 +1,6 @@
-const math = require('./math');
+const operations = require('./math/operations');
 
-console.log (math);
+console.log (operations.oppositesign(700));
+
 
 

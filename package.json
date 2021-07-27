@@ -4,7 +4,7 @@
   "description": "Basic calculator",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/yakairi/RPL-calculator/issues"
   },
-  "homepage": "https://github.com/yakairi/RPL-calculator#readme"
+  "homepage": "https://github.com/yakairi/RPL-calculator#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.0.3"
+  }
 }
