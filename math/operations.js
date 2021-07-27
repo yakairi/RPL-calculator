@@ -18,8 +18,7 @@ function divide(number1, number2) {
 }
 
 function percentage(number1, number2) {
-    if(number2 ==0)
-    return (number1 / number2) * 100;
+    return (number1 * number2) / 100;
 
 }
 

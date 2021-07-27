@@ -23,6 +23,7 @@
   "homepage": "https://github.com/yakairi/RPL-calculator#readme",
   "dependencies": {},
   "devDependencies": {
+    "electron": "^13.1.7",
     "mocha": "^9.0.3"
   }
 }

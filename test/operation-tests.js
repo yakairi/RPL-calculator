@@ -32,6 +32,9 @@ describe('Math operations', function() {
         it('3.5 * 4.5 must be 15.75', function(){
             assert.equal(operations.multiply(3.5,4.5), 15.75);
         })
+        it('3 * 4 must be 12', function(){
+            assert.equal(operations.multiply(3,4), 15);
+        })
     });
 
     describe('subtract', function(){
@@ -40,5 +43,9 @@ describe('Math operations', function() {
         })
     });
     
-    describe('percentage', function)
+    describe('percentage', function(){
+        it('((200 * 5) / 100 must be 10', function(){
+            assert.equal(operations.percentage(200,5 ), 10);
+        })
+    })
 });
