@@ -33,7 +33,7 @@ describe('Math operations', function() {
             assert.equal(operations.multiply(3.5,4.5), 15.75);
         })
         it('3 * 4 must be 12', function(){
-            assert.equal(operations.multiply(3,4), 15);
+            assert.equal(operations.multiply(3,4), 12);
         })
     });
 
@@ -46,6 +46,12 @@ describe('Math operations', function() {
     describe('percentage', function(){
         it('((200 * 5) / 100 must be 10', function(){
             assert.equal(operations.percentage(200,5 ), 10);
+        })
+    })
+
+    describe('oppositesign', function(){
+        it('4 * (-1) must be -4', function(){
+            assert.equal(operations.oppositesign(4,-1), -4);
         })
     })
 });
